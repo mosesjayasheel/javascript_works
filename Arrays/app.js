@@ -50,3 +50,45 @@ console.log(items);
 
 items.splice(2, 3, "brownies"); // removes 3 items from index 2 and replaced "ice-cream" with "brownies" at index 2
 console.log(items);
+
+
+let goods = ["laptop", "mobile", "tablet", "monitor"];
+console.log(goods);
+
+let result = goods.slice(1, 3);
+console.log(result);
+
+
+
+let cart = ["TV", "Fridge", "Washing Machine", "Microwave"];
+console.log(cart);
+
+cart.push("Dishwasher");
+console.log(cart);
+
+cart.pop();
+console.log(cart);
+
+cart.unshift("Air Conditioner");
+console.log(cart);
+
+cart.shift();
+console.log(cart);
+
+cart.splice(0, 1, "Air Conditioner");
+console.log(cart);
+
+cart.splice(3, 1);
+console.log(cart);
+
+cart.splice(2, 1, "Microwave");
+console.log(cart);
+
+cart.splice(2, 0, "Washing Machine");
+console.log(cart);
+
+
+let stock = ["TV", "Fridge", "Washing Machine", "Microwave"];
+console.log(stock);
+let final = stock.slice(1, 3);
+console.log(final);
