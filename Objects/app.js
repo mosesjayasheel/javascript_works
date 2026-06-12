@@ -19,7 +19,7 @@
 let student = {
     name: "Moses",
     age: 20,
-    state : "telangana"
+    state: "telangana"
 }
 
 // let {name, age} = student;
@@ -34,8 +34,8 @@ let student = {
 
 // console.log(updatedstudent);
 
-let {name, ...others} = student;
-console.log(others);
+// let { name, ...others } = student;
+// console.log(others);
 
 console.log(student.name);
 console.log(student["state"]);
@@ -52,7 +52,7 @@ console.log(student);
 
 let games = {
     name: "Cricket",
-    players: 11, 
+    players: 11,
     address: { place: "Stadium" }
     // play: function() {
     //     console.log("Playing ");
@@ -62,5 +62,32 @@ let games = {
 // games.play();
 
 console.log(games.address.place);
+
+
+let product = {
+    name: "Laptop",
+    price: 50000,
+    brand: "Dell"
+}
+
+// product.processor = "i7";
+// product.price = 45000;
+// delete product.brand;
+// console.log(product);
+
+// let {price, brand} = product;
+// console.log(name);
+// console.log(price);
+// console.log(brand);
+
+let updatedproduct = {
+    ...product,
+    ram: "32gb",
+    ssd: "512gb"
+}
+console.log(updatedproduct);
+
+let {brand, ...others} = product;
+console.log(others);
 
 
