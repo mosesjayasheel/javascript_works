@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    transition: 0.7s;
+}
+
+.dark {
+    background-color: red;
+    color: white;
+}
