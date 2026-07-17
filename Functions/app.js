@@ -31,3 +31,10 @@ const bmi = (weight,height) => {
 }
 let total =  bmi(95,6);
 console.log(total);
+
+
+function city() {
+    console.log("My town is " + name);
+}
+let name = "Hyderabad";
+city();

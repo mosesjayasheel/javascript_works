@@ -12,7 +12,7 @@ fetch("https://dummyjson.com/recipes")
     .then(response => response.json())
     .then(data => {
         container.innerHTML = data.recipes.map(recipes => `
-            
+              
     <div class = "card">
             <h3>${recipes.name}</h3>
             <img src = ${recipes.image}>
